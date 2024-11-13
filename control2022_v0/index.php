@@ -24,7 +24,7 @@ if (  !empty( $_GET['login']) && !empty($_GET['clave'])){
        $contenido = "El número de usuario y la contraseña no son válidos";
        $_SESSION["contador"]++;
         include_once('app/acceso.php');
-        $_SESSION["contador"]++;
+        
     
 
     }
